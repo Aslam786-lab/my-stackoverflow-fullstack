@@ -1,0 +1,12 @@
+runtime: nodejs20
+
+service: frontend
+handlers:
+
+- url: /bundle.js
+  static_files: build/bundle.js
+  upload: build/bundle.js
+
+- url: /.*
+  static_files: build/index.html
+  upload: build/index.html

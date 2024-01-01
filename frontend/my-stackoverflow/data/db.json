@@ -1,0 +1,76 @@
+{
+  "forumData": [
+    {
+      "id": 1,
+      "question": "How do I implement authentication in React?",
+      "personName": "Alice",
+      "votes": 25
+    },
+    {
+      "id": 2,
+      "question": "What are the best practices for optimizing Redux performance?",
+      "personName": "Bob",
+      "votes": 18
+    },
+    {
+      "id": 3,
+      "question": "How can I handle state management in a large-scale React application?",
+      "personName": "Charlie",
+      "votes": 12
+    },
+    {
+      "id": 4,
+      "question": "What are the advantages of using TypeScript with React?",
+      "personName": "David",
+      "votes": 30
+    },
+    {
+      "id": 5,
+      "question": "How to use hooks in React effectively?",
+      "personName": "Emily",
+      "votes": 15
+    },
+    {
+      "id": 6,
+      "question": "What are some common mistakes when using async/await in JavaScript?",
+      "personName": "Frank",
+      "votes": 22
+    },
+    {
+      "id": 7,
+      "question": "How to optimize performance in a React Native app?",
+      "personName": "Grace",
+      "votes": 28
+    },
+    {
+      "id": 8,
+      "question": "What is the role of Webpack in modern JavaScript development?",
+      "personName": "Henry",
+      "votes": 10
+    },
+    {
+      "id": 9,
+      "question": "How can I prevent memory leaks in my Node.js application?",
+      "personName": "Ivy",
+      "votes": 20
+    },
+    {
+      "id": 10,
+      "question": "Why should I use styled-components in React?",
+      "personName": "Jack",
+      "votes": 35
+    },
+    {
+      "question": "How can I improve SEO for a React application?",
+      "personName": "Ella",
+      "votes": 0,
+      "id": 11
+    },
+    {
+      "question": "How can I improve SEO for a React applications?",
+      "personName": "Ella",
+      "votes": 0,
+      "id": 12
+    }
+  ]
+}

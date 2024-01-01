@@ -1,0 +1,97 @@
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1000; 
+  background-color: #fff; 
+}
+
+/* .forum-posts {
+  margin-top: 100px;
+} */
+
+.mt-px {
+  height: 100px;
+  border-radius: 10px;
+  width: 70%;
+}
+.forum-header {
+  @apply flex p-2 justify-between items-center border-b border-gray-300 flex-wrap navbar
+}
+.search-bar {
+  @apply flex items-center md:justify-center md:mx-auto
+}
+.search-input {
+  @apply border border-gray-200 rounded-md py-1 px-4
+}
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-gray {
+  @apply bg-gray-700 text-white;
+}
+.btn-gray:hover {
+  @apply bg-gray-500;
+}
+
+.btn-blue {
+  @apply bg-blue-700 text-white;
+  margin-left: 61.5%;;
+}
+
+.forum-container {
+  margin: auto;
+  margin-top: 10%;
+}
+
+.form-container {
+  width: 70%;
+    margin: auto
+}
+
+.rel-pos {
+  position: relative;
+}
+
+.question-content {
+  margin-left: 20%;
+  color: blue;
+}
+
+.person-info {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.votes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.forum-btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15rem;
+  
+}
+
+.form {
+  width: 70%;
+  margin: auto;
+}
+
+.submit-btn {
+  background-color: rgb(19, 19, 166); /* Blue-500 */
+  border: black solid 2px;
+  font-weight: bold;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.375rem; /* Rounded corners */
+}
+
+.submit-btn:hover {
+  background-color: #dddde0; /* Blue-700 on hover */
+}
+
