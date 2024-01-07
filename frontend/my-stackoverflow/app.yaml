@@ -1,12 +1,16 @@
 runtime: nodejs20
 
 service: frontend
+
 handlers:
+  - url: /(.*\.js) 
+    static_files: build/\1
+    upload: build/.*\.js
 
-- url: /bundle.js
-  static_files: build/bundle.js
-  upload: build/bundle.js
+  - url: /(.*\.css) 
+    static_files: build/\1
+    upload: build/.*\.css
 
-- url: /.*
-  static_files: build/index.html
-  upload: build/index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
