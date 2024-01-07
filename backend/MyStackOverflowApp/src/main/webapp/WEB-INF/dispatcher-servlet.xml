@@ -12,6 +12,5 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <mvc:annotation-driven />
-    <bean id="ForumController" class="com.forum.controller.ForumController"></bean>
-    <context:component-scan base-package="com.forum.service" />
+    <context:component-scan base-package="com.forum" />
 </beans>
