@@ -9,6 +9,7 @@ import Header from './components/Header';
 import ForumPosts from './components/ForumPosts';
 import AskQuestionForm from './components/AskQuestionForm';
 import ForumButtons from './components/ForumButtons';
+import Loader from './components/Loader';
 
 export default function App() {
   const forumData = useSelector(state => state.forumPosts.forumEntities);
@@ -49,6 +50,7 @@ export default function App() {
   return (
       <>
         <Header onSearch={onSearch}/>
+        {forumPosts.length ?
         <div className='forum-container'>
           {showAskForm ? (
           <AskQuestionForm handleQuestion={handleQuestion}/>
@@ -58,7 +60,7 @@ export default function App() {
             <ForumPosts forumPosts={forumPosts} />
           </>
           )}
-        </div>
+        </div> : <Loader/>}
       </>
   );
 }
